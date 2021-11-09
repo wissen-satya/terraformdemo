@@ -1,13 +1,4 @@
 
-terraform {
-  required_providers {
-    azurerm = {
-      source = "hashicorp/azurerm"
-      version = "=2.71.0"
-    }
-  }
-}
-
 
 resource "azurerm_app_service_plan" "appserviceplan" {
   name                = "appserviceplan"
